@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="./assets/icon-nahuel1.png" type="image/png" />
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nahuel Luca</title>
+</head>
+<body>
+  <main>
+    <section class="home" id="home">
+      <div class="home-bg"></div>
+      <div class="container">
+        <nav>
+          <img src="./assets/nahuel-logo.png" alt="Nahuel" width="120px">
+          <img src="./assets/menu.svg" alt="menu" width="35px" class="menu" id="menu-bt">
+          <div class="menu-list" id="menu-list" style="display: none;"> 
+            <ul>
+              <li class="menu-item">
+                <a href="#home">Home</a>
+              </li>
+              <li class="menu-item">
+                <a href="#about">About</a>
+              </li>
+              <li class="menu-item">
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li class="menu-item">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="menu-desktop" id="menu-desktop"> 
+            <ul>
+              <li class="menu-item-desktop">
+                <a href="#home">Home</a>
+              </li>
+              <li class="menu-item-desktop">
+                <a href="#about">About</a>
+              </li>
+              <li class="menu-item-desktop">
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li class="menu-item-desktop">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="iam-div">
+        <h1>Nahuel Luca</h1>
+        <h2>Front-end Developer</h2>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrapper">
+        <div class="about-div">
+          <h2>About Nahuel</h2>
+          <div>
+            <img src="./assets/circle.svg" alt="" width="20px">
+            <p>
+              I started programming at the age of 16.
+            </p>
+            <img src="./assets/circle.svg" alt="" width="20px">
+            <p>
+              I love technology and growing as a software developer.
+            </p>
+            <img src="./assets/circle.svg" alt="" width="20px">
+            <p>
+              I have done self-taught and freelance projects.
+            </p>
+          </div>
+        </div>
+  
+        <div>
+          <h2>Frontend Web Developer</h2>
+          <p>
+            I'm Nahuel Luca, passionate about technology 
+            and web development. I have experience developing 
+            the front-end of websites.
+          </p>
+        </div>
+
+        <div class="social">
+          <a href="https://github.com/Nahuelluca20">
+            <img src="./assets/github.svg" alt="" width="35px">
+          </a>
+
+          <a href="mailto:nahueldevelop@gmail.com">
+            <img src="./assets/email.svg" alt="" width="35px">
+          </a>
+
+          <a href="https://www.linkedin.com/in/nahuel-luca-b66356199/">
+            <img src="./assets/linkedin.svg" alt="" width="35px">
+          </a>
+        </div>
+      </div>
+
+      <div class="skills">
+        <div class="skills-bg"></div>
+        <div class="wrapper">
+          <h2>Skills</h2>
+          <p>
+            About my skills, I have experience in HTML, CSS, 
+            Javascript, ReactJS, TailwindCSS and Axios.
+            In layout I have experience using flex-box 
+            and css grid. I know how to use Git and Github as 
+            version control system.
+          </p>
+          <div class="skills-grid">
+            <div>
+              <img src="./assets/html-5.svg" alt="" width="60px">
+              <h5>HTML</h5>
+            </div>
+
+            <div>
+              <img src="./assets/css-3.svg" alt="" width="60px">
+              <h5>CSS</h5>
+            </div>
+
+            <div>
+              <img src="./assets/javascript.svg" alt="" width="60px">
+              <h5>Javascript</h5>
+            </div>
+
+            <div>
+              <img src="./assets/react.svg" alt="" width="60px">
+              <h5>ReactJS</h5>
+            </div>
+
+            <div>
+              <img src="./assets/git.svg" alt="" width="60px">
+              <h5>Git</h5>
+            </div>
+
+            <div>
+              <img src="./assets/layout.svg" alt="" width="60px">
+              <h5>Grid and Flex-box</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="wrapper">
+        <h2 class="section-title">Portfolio</h2>
+        <h4 class="section-subtitle">Showcasing some of my best work</h4>
+        <div class="portfolio-grid">
+          <div class="portfolio-item-1" onmouseover="hover(this)" onmouseout="outHover(this)">
+            <div class="portfolio-description">
+              <h1>Turing</h1>
+              <p>
+                HTML, CSS, Javascript
+              </p>
+              <div class="bt-content">
+                <a href="http://turing-web.com/" class="bt-portfolio">
+                  View Web
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item-2" onmouseover="hover(this)" onmouseout="outHover(this)">
+            <div class="portfolio-description">
+              <h1>Easy Bank</h1>
+              <p>
+                HTML, CSS, Javascript, SASS
+              </p>
+              <div class="bt-content">
+                <a href="https://github.com/Nahuelluca20/easy-bank-landingPage" class="bt-portfolio">
+                  View Code
+                </a>
+                <a href="https://nahuelluca20.github.io/easy-bank-landingPage/" class="bt-portfolio">
+                  View Web
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item-3" onmouseover="hover(this)" onmouseout="outHover(this)">
+            <div class="portfolio-description">
+              <h1>TODO List App</h1>
+              <p>
+                HTML, CSS, Javascript, DarkMode
+              </p>
+              <div class="bt-content">
+                <a href="https://github.com/Nahuelluca20/todo-list-app" class="bt-portfolio">
+                  View Code
+                </a>
+                <a href="https://nahuelluca20.github.io/todo-list-app/" class="bt-portfolio">
+                  View Web
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-item-4" onmouseover="hover(this)" onmouseout="outHover(this)">
+            <div class="portfolio-description">
+              <h1>Film Search App</h1>
+              <p>
+                HTML, CSS, Javascript, ReactJS, API
+              </p>
+              <div class="bt-content">
+                <a href="https://github.com/Nahuelluca20/film-search" class="bt-portfolio">
+                  View Code
+                </a>
+                <a href="https://nahuelluca20.github.io/film-search/" class="bt-portfolio">
+                  View Web
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrapper">
+        <h2 class="section-title">Contact</h2>
+        <h4 class="section-subtitle">I am always ready to work, do not hesitate to contact me.</h4>
+        <div class="contact-grid">
+          <a href="mailto:nahueldevelop@gmail.com">
+            <img src="./assets/send.svg" alt="" width="50px"> 
+            <h5>Mail me</h5>
+          </a>
+          <a href="https://www.linkedin.com/in/nahuel-luca-b66356199/">
+            <img src="./assets/linkedin-2.svg" alt="" width="50px">
+            <h5>Contact me</h5>
+          </a>
+          <a href="https://github.com/Nahuelluca20">
+            <img src="./assets/github-2.svg" alt="" width="50px">
+            <h5>Follow me</h5>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <a href="mailto:nahueldevelop@gmail.com">
+          <img src="./assets/email.svg" alt="" width="20px">
+          nahueldevelop@gmail.com
+        </a>
+        <a href="https://github.com/Nahuelluca20">
+          <img src="./assets/github.svg" alt="" width="20px">
+          Coded by Nahuel Luca.
+        </a>
+        <div class="social-foot">
+          <a href="https://github.com/Nahuelluca20">
+            <img src="./assets/github.svg" alt="" width="35px">
+          </a>
+
+          <a href="mailto:nahueldevelop@gmail.com">
+            <img src="./assets/email.svg" alt="" width="35px">
+          </a>
+
+          <a href="https://www.linkedin.com/in/nahuel-luca-b66356199/">
+            <img src="./assets/linkedin.svg" alt="" width="35px">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
