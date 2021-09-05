@@ -15,7 +15,6 @@ body {
 nav {
   padding: 8px 20px;
   background: transparent;
-  transition: background 0.3s;
   display: flex;
   justify-content: space-between;
 }
@@ -40,6 +39,8 @@ html {
   right: 0;
   margin: 0 15px 0 15px;
   top: 60px;
+  animation-name: menu-animation;
+  animation-duration: 1s;
 }
 
 .menu-desktop {
@@ -60,14 +61,21 @@ html {
   font-size: 20px;
 }
 
-.menu-list ul{
+.menu-list ul {
   border-radius: 20px;
   list-style: none;
   padding:0;
+  left: 0;
+  right: 0;
+  bottom: -200px;
+  top: 90px;
   background: rgb(239, 83, 80);
-  transition: display 0.3s;
 }
 
+@keyframes menu-animation {
+  0% { top: -600px}
+  100% { top: 60px}
+}
 
 .menu-item {
   list-style: none;
@@ -290,21 +298,10 @@ footer a img {
 }
 
 @media screen and (min-width: 760px) {
-  .portfolio-item-1 {
+  .portfolio-item-1, .portfolio-item-2, .portfolio-item-3, .portfolio-item-4{
     height: 300px;
   }
   
-  .portfolio-item-2 {
-    height: 300px;
-  }
-  
-  .portfolio-item-3 {
-    height: 300px;
-  }
-  
-  .portfolio-item-4 {
-    height: 300px;
-  } 
   .contact-grid {
     display: flex;
     justify-content: space-around;
